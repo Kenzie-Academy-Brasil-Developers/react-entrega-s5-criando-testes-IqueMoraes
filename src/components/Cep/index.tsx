@@ -11,9 +11,9 @@ const Address = () => {
       {ceps.cep && (
         <div className="Address">
           <Form>
-            <Form.Field inline>
+            <Form.Field inline data-testid={"logradouro-test"}>
               <Header size="small">Logradouro</Header>
-              <Input fluid value={ceps.logradouro} />
+              <Input fluid id="InputLogradouro" value={ceps.logradouro}  />
             </Form.Field>
             <Form.Field inline>
               <Header size="small">Número</Header>

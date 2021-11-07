@@ -14,6 +14,7 @@ const Search = () => {
         <Input
           type="number"
           placeholder="Insira o CEP"
+          id="NumberInput"
           onChange={(event) => setCepNumber(event.target.value)}
         />
         <Button
